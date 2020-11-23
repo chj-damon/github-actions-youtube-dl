@@ -8,5 +8,4 @@
 --write-sub
 
 --external-downloader bin/aria2c
--x 16
--K 1M
+--external-downloader-args '-c -j 16 -k 1M'
