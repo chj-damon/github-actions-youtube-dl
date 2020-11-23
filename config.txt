@@ -5,7 +5,6 @@
 --write-info-json
 --write-annotations
 --write-thumbnail
---write-sub
 
 --external-downloader bin/aria2c
---external-downloader-args '-c -j 16 -k 1M'
+--external-downloader-args '-c -x 16 -k 1M'
