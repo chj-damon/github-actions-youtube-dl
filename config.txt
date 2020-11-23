@@ -1,0 +1,3 @@
+--batch-file playlist.txt
+--output downloads/%(id)s.%(ext)s
+--continue
