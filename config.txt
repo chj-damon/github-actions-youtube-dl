@@ -3,7 +3,6 @@
 --continue
 --write-description
 --write-info-json
---write-annotations
 --write-thumbnail
 
 --external-downloader bin/aria2c
