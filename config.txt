@@ -1,2 +1,12 @@
---output downloads/%(id)s.%(ext)s
+--batch-file playlist.txt
+--output downloads/%(id)s/%(title)s.%(ext)s
 --continue
+--write-description
+--write-info-json
+--write-annotations
+--write-thumbnail
+--write-sub
+
+--external-downloader bin/aria2c
+-x 16
+-K 1M
